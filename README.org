@@ -1,0 +1,26 @@
+#+TITLE: cpp generator
+
+* This code just to template generator for C++
+
+* For installation
+
+#+BEGIN_SRC bash
+autoreconf -i
+./configure
+make 
+#+END_SRC
+
+Maybe you can install in some directory
+
+#+BEGIN_SRC bash
+./configure --prefix=DirYouWant
+make 
+make install
+#+END_SRC
+
+or if you want to install to system directory you must install
+with sudo
+
+#+BEGIN_SRC bash
+sudo make install
+#+END_SRC
